@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("opdracht 2");
+
             Console.WriteLine("welkom bij C# is string");
             Console.WriteLine("260 is short 64 bit");
             Console.WriteLine("-56 is int 32 bit");

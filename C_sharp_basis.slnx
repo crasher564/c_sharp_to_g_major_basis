@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="C_sharp_basis/C_sharp_basis.csproj" />
   <Project Path="opdracht2/opdracht2.csproj" />
+  <Project Path="opdracht3/opdracht3.csproj" Id="65559c34-fa23-4a2f-85e4-752f5c411771" />
 </Solution>
