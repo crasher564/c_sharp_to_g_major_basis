@@ -4,4 +4,6 @@
   <Project Path="opdracht3/opdracht3.csproj" Id="65559c34-fa23-4a2f-85e4-752f5c411771" />
   <Project Path="opdracht4/opdracht4.csproj" Id="a4a1a0af-e7d8-4445-8c2b-73bc5178f4ae" />
   <Project Path="opdracht5/opdracht5.csproj" Id="8f7eff1b-d049-4a94-bd5e-8e73e9160c2d" />
+  <Project Path="opdracht6/opdracht6.csproj" Id="149d47b7-bacd-4762-bfd4-99e958e10d4a" />
+  <Project Path="opdracht7/opdracht7.csproj" Id="d8baaedb-1d47-4878-bbb9-414b1c556688" />
 </Solution>
