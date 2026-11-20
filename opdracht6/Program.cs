@@ -17,7 +17,9 @@
             Console.WriteLine("geboorte dag?");
             int geboorte_dag = int.Parse(Console.ReadLine());
  
-            Console.WriteLine($"geweldig!, jij bent {huidig_jaar - geboorte_jaar} jaar, {huidig_maand - geboorte_maand} maanden en {huidig_dag - geboorte_dag} dagen oud, gefeliciteerd!");
+            Console.WriteLine($"geweldig!, jij bent {huidig_jaar - geboorte_jaar} jaar, " +
+                $"{huidig_maand - geboorte_maand} maanden " +
+                $"en {huidig_dag - geboorte_dag} dagen oud, gefeliciteerd!");
 
             if (huidig_jaar - geboorte_jaar >= 50) 
             {
