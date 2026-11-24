@@ -6,25 +6,35 @@
         {
             Console.WriteLine("opdracht 17");
 
-            Console.WriteLine("Voer een getal in:");
+            Console.Write("hoe lang is array : ");
+
             string invoer = Console.ReadLine();
+
             int getal;
+
             if (int.TryParse(invoer, out getal))
             {
-                int invoer2 = int.Parse(invoer);
-                    string[] numb = new string[invoer2];
+                int length = int.Parse(invoer);
+
+                    string[] numb = new string[length];
 
                     for (int i = 0; i < numb.Length;)
                     {
-                        Console.WriteLine("enter a new number");
+                        Console.Write("enter a new number : ");
+
                         string num = Console.ReadLine( );
+
                         if (int.TryParse(num, out getal) == true)
                         {
                             numb[i] = num;
                             i++;
-                            Console.WriteLine($"{invoer2 - i} left");
+                            Console.WriteLine($"{length - i} left");
                         }
+                    else
+                    {
+                        Console.WriteLine("not a valid awnser :3");
                     }
+                }
                     for (int i = 0; i < numb.Length; i++)
                     {
                         Console.WriteLine(numb[i]);
