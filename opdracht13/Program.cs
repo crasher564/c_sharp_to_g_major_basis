@@ -6,24 +6,27 @@
         {
             Console.WriteLine("opdracht 13");
 
-            int[] num = new int[5];
 
-            for (int i = 0; i < num.Length; i++)
+            int getal;
+            string[] numb = new string[5];
+
+            for (int i = 0; i < numb.Length; )
             {
                 Console.WriteLine("enter a new number");
-                int naam = int.Parse(Console.ReadLine());
-                if (naam >= 0 && naam <= 9)
+                string num = Console.ReadLine();
+                if (int.TryParse(num, out getal) == true)
                 {
-                    num[i] = naam;
+                    numb[i] = num;
+                    i++;
                 }
                 else
                 {
-                    i = 0;
+                    Console.WriteLine(" dat is geen nummer");
                 }
             }
-            for (int i = 0; i < num.Length; i++)
+            for (int i = 0; i < numb.Length; i++)
             {
-                Console.WriteLine(num[i]);
+                Console.WriteLine(numb[i]);
             }
         }
     }
