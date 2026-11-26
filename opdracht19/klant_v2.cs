@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 
-namespace opdracht18
+namespace opdracht19
 {
     public class klant
     {
